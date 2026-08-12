@@ -712,7 +712,7 @@ window.J0Sync = (function () {
   var KEY = "j0-review-v1", SKEY = "j0-sync";
   /* 저장소·경로는 **빌드에서 박는다.** 사이트를 올린 그 저장소에 기록 파일을 같이 둔다 —
      사람이 화면에서 저장소 이름을 적어 넣게 하면 기기마다 틀리게 적어 어긋난다. */
-  var REPO = "notjaeyoung0108-lang/anki_civil_note", PATH = "review-log.json";
+  var REPO = "notjaeyoung0108-lang/j0-review-log", PATH = "review-log.json";
 
   function cfg() { try { return JSON.parse(localStorage.getItem(SKEY) || "{}"); }
                    catch (e) { return {}; } }
